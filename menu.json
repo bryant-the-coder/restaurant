@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Chicken Chop",
+      "price": 10.5,
+      "veg": false,
+      "reviews": [4],
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Mushroom soup",
+      "price": 5.0,
+      "veg": false,
+      "reviews": [5],
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Vegetarian Rice",
+      "price": 3.0,
+      "veg": true,
+      "reviews": [5],
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "French Fries",
+      "price": 6.0,
+      "veg": false,
+      "reviews": [4],
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "spagheti",
+      "price": "10.00",
+      "veg": true,
+      "reviews": []
+    }
+  ]
+}
