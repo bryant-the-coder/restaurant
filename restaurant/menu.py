@@ -1,5 +1,6 @@
 import json
-from modules import *
+from utils.functions import *
+from utils.maintenance import *
 
 
 with open("menu.json", "r") as f:
@@ -24,20 +25,21 @@ while True:
     print("")
 
     if choice == 1:
-        food_name = input("Enter item name >> ")
-        price = input("Enter item price >> ")
-        food_type = input("Veg / Non-veg >> ")
-        items.append(
-            {
-                "id": len(items) + 1,
-                "name": food_name,
-                "price": price,
-                "veg": True if food_type == "Non-veg" else False,
-                "reviews": [],
-            }
-        )
+        # food_name = input("Enter item name >> ")
+        # price = input("Enter item price >> ")
+        # food_type = input("Veg / Non-veg >> ")
+        # items.append(
+        #     {
+        #         "id": len(items) + 1,
+        #         "name": food_name,
+        #         "price": price,
+        #         "veg": True if food_type == "Non-veg" else False,
+        #         "reviews": [],
+        #     }
+        # )
 
-        data["items"] = items
-        with open("menu.json", "w") as f:
-            json.dump(data, f)
-            print("item has been added")
+        # data["items"] = items
+        # with open("menu.json", "w") as f:
+        #     json.dump(data, f)
+        #     print("item has been added")
+        menu_maintenance()
